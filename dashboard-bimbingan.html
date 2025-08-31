@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Bimbingan & Skripsi — FEBI UINSI</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      overflow: hidden;
+    }
+    main {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 100%;
+      height: 100%;
+      padding: 10px 20px;
+      box-sizing: border-box;
+    }
+    .container {
+      flex: 1 1 auto;
+      display: flex;
+      flex-direction: column;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 20px;
+    }
+    iframe {
+      flex: 1 1 auto;
+      width: 100%;
+      border: none;
+    }
+    h3 {
+      margin: 0 0 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="container">
+      <h3>📊 Data Bimbingan Skripsi</h3>
+      <iframe src="https://docs.google.com/spreadsheets/d/YOUR_SHEET_ID_HERE/pubhtml?widget=true&amp;headers=false"></iframe>
+    </div>
+
+    <div class="container">
+      <h3>📝 Input Data Bimbingan & Skripsi</h3>
+      <iframe src="https://docs.google.com/forms/d/e/YOUR_FORM_ID_HERE/viewform?embedded=true"></iframe>
+    </div>
+
+    <div class="container">
+      <h3>📚 Database Skripsi FEBI</h3>
+      <iframe src="https://docs.google.com/spreadsheets/d/YOUR_SHEET_ID_DATABASE/pubhtml?widget=true&amp;headers=false"></iframe>
+    </div>
+  </main>
+</body>
+</html>
